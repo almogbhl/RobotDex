@@ -9,12 +9,12 @@
     "react-scripts": "1.1.5",
     "tachyons": "^4.11.1"
   },
-  "homepage": "https://almogbhl.github.io/robots",
+  "homepage": "https://almogbhl.github.io/RobotDex",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build"
   }
 }
